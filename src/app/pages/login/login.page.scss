@@ -1,6 +1,3 @@
-ion-content {
-    --background: white;
-}
 .flex-center{
     display: flex;
     flex-direction: column;
@@ -18,6 +15,11 @@ ion-content {
     }
     img{
         width: 180px;
-        margin-bottom: 80px;
+        margin-bottom: 60px;
     }
+}
+ion-card{
+    width: 90%;
+    --background: #F7FFDD;
+    border-radius: 15px;
 }

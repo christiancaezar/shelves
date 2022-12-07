@@ -1,26 +1,47 @@
-<ion-header>
-  <ion-toolbar>
-    <div style="display: flex;">
-      <ion-buttons slot="start">
-        <ion-back-button></ion-back-button>
-      </ion-buttons>
-    <ion-title>Register to Shelves</ion-title>
-    </div>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content>
-  <ion-card>
-    <ion-item>
-      <ion-card-header>
-        Personal Information
-      </ion-card-header>
-    </ion-item>
+<ion-content style="--background:#d0e3cc ;">
+    <ion-card>
+      <div class="image">
+        <img src="../assets/shelves-logo.png" alt="Shelves logo">
+      </div>
+    <ion-card-header>
+      <ion-card-title style="--color: #563124; text-align: center; font-weight: bold;">Sign Up</ion-card-title>
+      <ion-card-subtitle style="--color: #563124; text-align: center;">Welcome to Shelves!</ion-card-subtitle>
+    </ion-card-header>
+  
     <ion-card-content>
-      <ion-item>
-        <ion-label position="fixed">First</ion-label>
-        <ion-input placeholder="Enter text"></ion-input>
+
+      <ion-item  >
+        <ion-label style="--color: #563124; " position="stacked">First Name:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Enter first name"></ion-input>
       </ion-item>
+
+      <ion-item  >
+        <ion-label style="--color: #563124;" position="stacked">Middle Name:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Enter middle name"></ion-input>
+      </ion-item>
+
+      <ion-item  >
+        <ion-label style="--color: #563124;" position="stacked">Last Name:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Enter last name"></ion-input>
+      </ion-item>
+
+      <ion-item  >
+        <ion-label style="--color: #563124;" position="stacked">Email Address:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Enter email address"></ion-input>
+      </ion-item>
+
+      <ion-item  >
+        <ion-label style="--color: #563124;" position="stacked">Password:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Enter password" type="password"></ion-input>
+      </ion-item>
+
+      <ion-item  >
+        <ion-label style="--color: #563124;" position="stacked">Confirm Password:</ion-label>
+        <ion-input style="--color: #563124;" placeholder="Re-type password" type="password"></ion-input>
+      </ion-item>
+
     </ion-card-content>
+  
+    <ion-button shape="round" >Sign me up</ion-button>
   </ion-card>
 </ion-content>

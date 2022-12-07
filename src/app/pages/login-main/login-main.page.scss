@@ -1,15 +1,13 @@
-ion-content {
-    --background: white;
-}
 .flex-center{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     height: 100%;
+    margin: 0;
     img{
         width: 180px;
-        margin-bottom: 10px;
+        margin-bottom: 0px;
     }
     ion-input{
         width: 210px;
@@ -33,4 +31,10 @@ ion-content {
         margin-top: 10px;
         padding: 0;
     }
+}
+ion-card{
+    --background: #F7FFDD;
+}
+ion-item{
+    --background: #F7FFDD;
 }
