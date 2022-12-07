@@ -1,0 +1,23 @@
+ion-content {
+    --background: white;
+}
+.flex-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    ion-button{
+        width: 90%; 
+        --color: #563124;
+        --border-color: #563124;
+    }
+    .full-color{
+        --background: #563124;
+        --color: #F7FFDD;
+    }
+    img{
+        width: 180px;
+        margin-bottom: 80px;
+    }
+}
