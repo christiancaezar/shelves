@@ -10,8 +10,8 @@
       <ion-input placeholder="Enter password" type="password"></ion-input>
     </ion-item>
     <div class="button">
-      <ion-button shape="round" class="login">Take me to Shelves!</ion-button>
-      <ion-button shape="round" slot="start" style="font-weight: normal; text-transform: none; font-size: 12px; margin-top: 0;" fill="none">Forgot password?</ion-button>
+      <ion-button shape="round" class="login" (click)="presentAlert()">Take me to Shelves!</ion-button>
+      <ion-button shape="round" slot="start" style="font-weight: normal; text-transform: none; font-size: 12px; margin-top: 0;" fill="none">I forgot my password.</ion-button>
       <ion-button shape="round" slot="start" style="font-weight: normal; text-transform: none; font-size: 12px; margin-top: 0; width: 100%;" fill="none"><ion-icon name="logo-google" style="font-size: large; margin-right: 5px;"></ion-icon>I will use my Google Mail!</ion-button>
     </div>
   </div>
