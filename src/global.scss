@@ -28,3 +28,13 @@
 ion-content {
     --background: #D0E3CC;
 }
+ion-toolbar{
+    --background: #563124;
+    ion-menu-button{
+        --color: #F7FFDD;
+    }
+    ion-title{
+        --color: #F7FFDD;
+        font-weight: bold;
+    }
+}
