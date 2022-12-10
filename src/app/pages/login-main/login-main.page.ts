@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { AlertController } from '@ionic/angular';
 
 @Component({
@@ -9,11 +10,17 @@ import { AlertController } from '@ionic/angular';
 
 export class LoginMainPage implements OnInit {
 
-  constructor(private alertController: AlertController) {}
+  constructor(private alertController: AlertController, private router: Router) {}
 
   ngOnInit() {
   }
   
+  login(){
+    this.router.navigate(['home-page']);
+  }
+  forgotPassword(){
+    this.router.navigate(['forgot-password']);
+  }
 
   async presentAlert() {
     const alert = await this.alertController.create({
@@ -25,5 +32,7 @@ export class LoginMainPage implements OnInit {
 
     await alert.present();
   }
+
+  
 
 }
