@@ -24,6 +24,7 @@ ion-list{
         font-size: large;
         --background: #F7FFDD;
         padding-top: 5px;
+        --color: #563124;
     }
     ion-button{
         height: 100%;
@@ -38,6 +39,9 @@ ion-list{
     .activities-container{
         --background: #F7FFDD;
         padding-bottom: 8px;
+    }
+    ion-label{
+        --color: #563124;
     }
 }
 ion-modal{

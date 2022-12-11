@@ -31,6 +31,12 @@
         margin-top: 10px;
         padding: 0;
     }
+    ion-label{
+        color: #563124;
+    }
+    ion-input{
+        --placeholder-color: #563124;
+    }
 }
 ion-card{
     --background: #F7FFDD;
